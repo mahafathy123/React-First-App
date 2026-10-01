@@ -1,0 +1,505 @@
+{
+  "productCategories": [
+    "men",
+    "women",
+    "kids"
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Men Classic Denim Jacket",
+      "description": "High quality classic blue denim jacket for men, stylish and durable.",
+      "category": "men",
+      "price": 49.99,
+      "discount": 10,
+      "stock": 25,
+      "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=500"
+    },
+    {
+      "id": 2,
+      "title": "Men Casual White T-Shirt",
+      "description": "100% premium cotton t-shirt for daily comfortable wear.",
+      "category": "men",
+      "price": 19.99,
+      "discount": 5,
+      "stock": 50,
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500"
+    },
+    {
+      "id": 3,
+      "title": "Men Leather Biker Jacket",
+      "description": "Genuine black leather jacket with modern fit and zip details.",
+      "category": "men",
+      "price": 89.99,
+      "discount": 15,
+      "stock": 12,
+      "image": "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500"
+    },
+    {
+      "id": 4,
+      "title": "Men Formal Black Suit",
+      "description": "Elegant two-piece slim fit suit perfect for formal occasions.",
+      "category": "men",
+      "price": 149.99,
+      "discount": 20,
+      "stock": 8,
+      "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=500"
+    },
+    {
+      "id": 5,
+      "title": "Men Urban Hoodie",
+      "description": "Cozy pullover fleece hoodie with front pocket.",
+      "category": "men",
+      "price": 34.99,
+      "discount": 0,
+      "stock": 30,
+      "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=500"
+    },
+    {
+      "id": 6,
+      "title": "Men Chino Pants",
+      "description": "Slim-fit stretch chino trousers for versatile smart-casual looks.",
+      "category": "men",
+      "price": 39.99,
+      "discount": 10,
+      "stock": 20,
+      "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500"
+    },
+    {
+      "id": 7,
+      "title": "Men Plaid Button-Down Shirt",
+      "description": "Cotton long-sleeve casual checked shirt.",
+      "category": "men",
+      "price": 29.99,
+      "discount": 5,
+      "stock": 18,
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500"
+    },
+    {
+      "id": 8,
+      "title": "Men Athletic Running Shorts",
+      "description": "Lightweight breathable shorts for gym and workout.",
+      "category": "men",
+      "price": 15.99,
+      "discount": 0,
+      "stock": 45,
+      "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500"
+    },
+    {
+      "id": 9,
+      "title": "Men Winter Wool Coat",
+      "description": "Warm overcoat tailored from wool blend fabric.",
+      "category": "men",
+      "price": 119.99,
+      "discount": 25,
+      "stock": 10,
+      "image": "https://images.unsplash.com/photo-1544441893-675973e31985?w=500"
+    },
+    {
+      "id": 10,
+      "title": "Men Polo Shirt",
+      "description": "Classic breathable polo shirt with collar.",
+      "category": "men",
+      "price": 24.99,
+      "discount": 5,
+      "stock": 35,
+      "image": "https://images.unsplash.com/photo-1625910513413-4ec35fdf0a4d?w=500"
+    },
+    {
+      "id": 11,
+      "title": "Men Slim Jeans",
+      "description": "Modern dark blue denim jeans with slight stretch.",
+      "category": "men",
+      "price": 44.99,
+      "discount": 10,
+      "stock": 22,
+      "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500"
+    },
+    {
+      "id": 12,
+      "title": "Men Puffer Vest",
+      "description": "Insulated sleeveless jacket for autumn layerings.",
+      "category": "men",
+      "price": 49.99,
+      "discount": 12,
+      "stock": 16,
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=500"},
+    {
+      "id": 13,
+      "title": "Men Summer Linen Shirt",
+      "description": "Cool and comfortable linen long-sleeve shirt for beach days.",
+      "category": "men",
+      "price": 32.99,
+      "discount": 0,
+      "stock": 28,
+      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500"
+    },
+    {
+      "id": 14,
+      "title": "Men Sweatpants",
+      "description": "Soft fleece joggers with drawstring waist.",
+      "category": "men",
+      "price": 27.99,
+      "discount": 8,
+      "stock": 40,
+      "image": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=500"
+    },
+    {
+      "id": 15,
+      "title": "Men Trench Coat",
+      "description": "Classic double-breasted windproof trench coat.",
+      "category": "men",
+      "price": 129.99,
+      "discount": 15,
+      "stock": 7,
+      "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=500"
+    },
+    {
+      "id": 16,
+      "title": "Men Striped Sweater",
+      "description": "Knitted crewneck sweater with classic stripes.",
+      "category": "men",
+      "price": 38.99,
+      "discount": 10,
+      "stock": 19,
+      "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500"
+    },
+    {
+      "id": 17,
+      "title": "Women Floral Summer Dress",
+      "description": "Lightweight romantic floral dress with waist tie.",
+      "category": "women",
+      "price": 39.99,
+      "discount": 10,
+      "stock": 30,
+      "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=500"
+    },
+    {
+      "id": 18,
+      "title": "Women High-Waist Jeans",
+      "description": "Trendy high-rise straight leg denim jeans.",
+      "category": "women",
+      "price": 45.99,
+      "discount": 12,
+      "stock": 25,
+      "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500"
+    },
+    {
+      "id": 19,
+      "title": "Women Elegant Silk Blouse",
+      "description": "Soft satin button-down blouse for work and evening.",
+      "category": "women",
+      "price": 34.99,
+      "discount": 5,
+      "stock": 20,
+      "image": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=500"
+    },
+    {
+      "id": 20,
+      "title": "Women Knit Cardigan",
+      "description": "Oversized cozy knit sweater with front buttons.",
+      "category": "women",
+      "price": 42.99,
+      "discount": 15,
+      "stock": 18,
+      "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500"
+    },
+    {
+      "id": 21,
+      "title": "Women Little Black Evening Dress",
+      "description": "Classic cocktail party dress with modern silhouette.",
+      "category": "women",
+      "price": 69.99,
+      "discount": 20,
+      "stock": 14,
+      "image": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=500"
+    },
+    {
+      "id": 22,
+      "title": "Women Casual Blazer",
+      "description": "Tailored jacket perfect for casual-office outfit.",
+      "category": "women",
+      "price": 54.99,
+      "discount": 10,
+      "stock": 15,
+      "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+    },
+    {
+      "id": 23,
+      "title": "Women Pleated Midi Skirt",
+      "description": "Flowy elegant skirt with elastic waistband.",
+      "category": "women",
+      "price": 29.99,
+      "discount": 0,
+      "stock": 28,
+      "image": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500"
+    },
+    {
+      "id": 24,
+      "title": "Women Leather Jacket",
+      "description": "Faux leather cropped biker jacket.",
+      "category": "women",
+      "price": 79.99,
+      "discount": 15,
+      "stock": 10,
+      "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+    },
+    {
+      "id": 25,
+      "title": "Women Yoga Leggings","description": "High-waisted squat-proof workout tights.",
+      "category": "women",
+      "price": 24.99,
+      "discount": 5,
+      "stock": 50,
+      "image": "https://images.unsplash.com/photo-1506629082925-2368c7f82df9?w=500"
+    },
+    {
+      "id": 26,
+      "title": "Women Oversized Crop Top",
+      "description": "Cotton relaxed-fit summer cropped tee.",
+      "category": "women",
+      "price": 18.99,
+      "discount": 0,
+      "stock": 40,
+      "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=500"
+    },
+    {
+      "id": 27,
+      "title": "Women Winter Trench Coat",
+      "description": "Long wool blend coat with belt detail.",
+      "category": "women",
+      "price": 110.00,
+      "discount": 18,
+      "stock": 9,
+      "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=500"
+    },
+    {
+      "id": 28,
+      "title": "Women Denim Overall Jumpsuit",
+      "description": "Casual vintage blue denim jumpsuit.",
+      "category": "women",
+      "price": 49.99,
+      "discount": 10,
+      "stock": 16,
+      "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=500"
+    },
+    {
+      "id": 29,
+      "title": "Women Boho Maxi Dress",
+      "description": "Bohemian patterned long dress for outdoor events.",
+      "category": "women",
+      "price": 52.99,
+      "discount": 12,
+      "stock": 21,
+      "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500"
+    },
+    {
+      "id": 30,
+      "title": "Women Fleece Sweatshirt",
+      "description": "Warm oversized crewneck sweatshirt.",
+      "category": "women",
+      "price": 31.99,
+      "discount": 5,
+      "stock": 33,
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500"
+    },
+    {
+      "id": 31,
+      "title": "Women Linen Shorts",
+      "description": "Breathable high-waist summer shorts.",
+      "category": "women",
+      "price": 22.99,
+      "discount": 0,
+      "stock": 27,
+      "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500"
+    },
+    {
+      "id": 32,
+      "title": "Women Satin Nightgown Dress",
+      "description": "Luxurious soft satin slip dress.",
+      "category": "women",
+      "price": 36.99,
+      "discount": 10,
+      "stock": 15,
+      "image": "https://images.unsplash.com/photo-1568252542512-9fe8fe9c87bb?w=500"
+    },
+    {
+      "id": 33,
+      "title": "Women Wool Turtle Neck",
+      "description": "Slim fitting warm turtleneck sweater.",
+      "category": "women",
+      "price": 28.99,
+      "discount": 5,
+      "stock": 24,
+      "image": "https://images.unsplash.com/photo-1574201635302-388dd92a4c3f?w=500"
+    },
+    {
+      "id": 34,
+      "title": "Kids Warm Hoodie Set",
+      "description": "Comfortable two-piece fleece tracksuit for children.",
+      "category": "kids",
+      "price": 29.99,
+      "discount": 8,
+      "stock": 40,
+      "image": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=500"
+    },
+    {
+      "id": 35,
+      "title": "Kids Cartoon Print T-Shirt",
+      "description": "100% soft cotton tshirt with fun colorful prints.",
+      "category": "kids",
+      "price": 14.99,
+      "discount": 0,
+      "stock": 60,
+      "image": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=500"
+    },
+    {
+      "id": 36,
+      "title": "Kids Denim Jacket",
+      "description": "Cute durable denim jacket for boys and girls.",
+      "category": "kids",
+      "price": 32.99,
+      "discount": 10,
+      "stock": 22,
+      "image": "https://images.unsplash.com/photo-1519457431-44ccd64a579b?w=500"
+    },
+    {
+      "id": 37,
+      "title": "Kids Floral Party Dress",
+      "description": "Lovely party dress with lace trim for little girls.",
+      "category": "kids","price": 27.99,
+      "discount": 5,
+      "stock": 18,
+      "image": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=500"
+    },
+    {
+      "id": 38,
+      "title": "Kids Cotton Pajama Set",
+      "description": "Soft breathable sleepwear set with elastic waist.",
+      "category": "kids",
+      "price": 19.99,
+      "discount": 0,
+      "stock": 35,
+      "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=500"
+    },
+    {
+      "id": 39,
+      "title": "Kids Winter Puffer Coat",
+      "description": "Thick hooded waterproof winter jacket for kids.",
+      "category": "kids",
+      "price": 44.99,
+      "discount": 15,
+      "stock": 14,
+      "image": "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?w=500"
+    },
+    {
+      "id": 40,
+      "title": "Kids Sporty Sweatpants",
+      "description": "Durable cotton joggers with side stripes.",
+      "category": "kids",
+      "price": 16.99,
+      "discount": 0,
+      "stock": 50,
+      "image": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=500"
+    },
+    {
+      "id": 41,
+      "title": "Kids Summer Polo Shirt",
+      "description": "Smart casual polo shirt for young boys.",
+      "category": "kids",
+      "price": 17.99,
+      "discount": 5,
+      "stock": 30,
+      "image": "https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?w=500"
+    },
+    {
+      "id": 42,
+      "title": "Kids Denim Overalls",
+      "description": "Classic adjustable denim bib overalls.",
+      "category": "kids",
+      "price": 26.99,
+      "discount": 10,
+      "stock": 25,
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=500"
+    },
+    {
+      "id": 43,
+      "title": "Kids Knitted Sweater",
+      "description": "Warm crewneck sweater for winter seasons.",
+      "category": "kids",
+      "price": 23.99,
+      "discount": 5,
+      "stock": 20,
+      "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500"
+    },
+    {
+      "id": 44,
+      "title": "Kids Casual Shorts Set",
+      "description": "Two-piece summer t-shirt and shorts outfit.",
+      "category": "kids",
+      "price": 21.99,
+      "discount": 0,
+      "stock": 32,
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500"
+    },
+    {
+      "id": 45,
+      "title": "Kids Rainbow Tutu Skirt",
+      "description": "Fun layered mesh tulle skirt for girls.",
+      "category": "kids",
+      "price": 18.99,
+      "discount": 0,
+      "stock": 28,
+      "image": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=500"
+    },
+    {
+      "id": 46,
+      "title": "Kids Raincoat Waterproof",
+      "description": "Bright hooded rain jacket with snap buttons.",
+      "category": "kids",
+      "price": 25.99,
+      "discount": 10,
+      "stock": 19,
+      "image": "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?w=500"
+    },
+    {
+      "id": 47,
+      "title": "Kids Baseball Cap",
+      "description": "Adjustable cotton sun cap for outdoor play.",
+      "category": "kids",
+      "price": 11.99,
+      "discount": 0,
+      "stock": 60,
+      "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500"
+    },
+    {
+      "id": 48,
+      "title": "Kids Fleece Zip Hoodie",
+      "description": "Full-zip hooded sweater with pockets.",
+      "category": "kids",
+      "price": 24.99,
+      "discount": 5,
+      "stock": 38,
+      "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=500"
+    },
+    {
+      "id": 49,
+      "title": "Kids Summer Swimsuit",
+      "description": "Quick-dry comfortable bathing suit.",
+      "category": "kids",
+      "price": 15.99,
+      "discount": 0,
+      "stock": 42,
+      "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=500"},
+    {
+      "id": 50,
+      "title": "Kids Winter Beanie and Scarf Set",
+      "description": "Soft warm knit hat and matching scarf.",
+      "category": "kids",
+      "price": 14.99,
+      "discount": 0,
+      "stock": 45,
+      "image": "https://images.unsplash.com/photo-1574201635302-388dd92a4c3f?w=500"
+    }
+  ]
+}

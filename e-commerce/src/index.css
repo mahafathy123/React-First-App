@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* خلفيات فاتحة ومريحة للعين */
+  --bg-main: #F8FAFC;        /* خلفية الموقع رمادي فاتح جداً */
+  --bg-card: #FFFFFF;        /* الكارت أبيض ناصع */
+  
+  /* الأصفر الكناري المميز */
+  --canary-yellow: #FFD000;
+  --canary-hover: #E6B800;
+  
+  /* النصوص والحدود الداكنة الواضحة */
+  --text-primary: #0F172A;   /* كحلي/رصاصي غامق جداً للنصوص */
+  --text-secondary: #64748B; /* رمادي متوسط للوصف */
+  --border-light: #E2E8F0;    /* حدود ناعمة جداً */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}

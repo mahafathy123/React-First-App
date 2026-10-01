@@ -1,0 +1,259 @@
+/* =========================================
+   Animations & Transitions Definition
+   ========================================= */
+
+/* أنيميشن دخول متدرج للأسفل عند تحميل الصفحة */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* حركة طفو ناعمة ومستمرة للأيقونة أو العناصر المميزة */
+@keyframes floatDynamic {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(1deg);
+  }
+}
+
+/* أنيميشن التدرج المائي خلف الـ Hero Section */
+@keyframes heroGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* =========================================
+   Staggered Entrance Animation for Products
+   ========================================= */
+
+/* كود حركة الظهور المتدرجة من الأسفل للعلى */
+@keyframes cardEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* الحاوية الخارجية لكل كارت منتج */
+.product-card-wrapper {
+  opacity: 0; /* يبدأ مختفي */
+  animation: cardEntrance 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  /* بيعتمد على التأخير الزمني الخاص بكل كارت */
+  animation-delay: var(--delay, 0s); 
+}
+
+/* =========================================
+   Layout & Container
+   ========================================= */
+
+.home-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* =========================================
+   Hero Section with Dynamic Entrance
+   ========================================= */
+
+.hero-section {
+  text-align: center;
+  padding: 70px 24px;
+  background: linear-gradient(-45deg, #0F172A, #1E293B, #111827, #1E293B);
+  background-size: 300% 300%;
+  animation: heroGlow 12s ease infinite;
+  border-radius: 24px;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* تأثير لمعة ناعمة بتمر على الـ Hero */
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 208, 0, 0.05) 0%, transparent 60%);
+  animation: floatDynamic 8s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #FFFFFF !important;
+  margin-bottom: 14px;
+  letter-spacing: -0.02em;
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.1s backwards;
+}
+
+.hero-section h1 span {
+  color: #FFD000 !important;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.hero-section h1 span:hover {
+  transform: scale(1.05) rotate(-2deg);
+}
+
+.hero-section p {
+  color: #94A3B8 !important;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 32px;
+  line-height: 1.6;
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.2s backwards;
+}
+
+/* =========================================
+   Interactive Search Bar
+   ========================================= */
+
+.search-bar {
+  display: flex;
+  max-width: 540px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  padding: 6px 8px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.3s backwards;
+}
+
+.search-bar:focus-within {
+  transform: translateY(-3px) scale(1.01);
+  box-shadow: 0 15px 35px rgba(255, 208, 0, 0.25);
+  outline: 2px solid #FFD000;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 12px 18px;
+  border: none;
+  background: transparent;
+  color: #0F172A;
+  font-size: 0.98rem;
+  font-weight: 500;
+  outline: none;
+}
+
+.search-bar button {
+  background-color: #FFD000;
+  color: #0F172A;
+  border: none;
+  font-weight: 700;
+  padding: 12px 28px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.search-bar button:hover {
+  background-color: #0F172A;
+  color: #FFD000;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 15px rgba(15, 23, 42, 0.2);
+}
+
+.search-bar button:active {
+  transform: scale(0.96);
+}
+
+/* =========================================
+   Animated Categories Bar
+   ========================================= */
+
+/* =========================================
+   Sleek & Smooth Categories Pill Bar
+   ========================================= */
+
+.categories-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #FFFFFF;
+  padding: 6px;
+  border-radius: 50px;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+  overflow-x: auto;
+  margin-bottom: 36px;
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* زر القسم - بدون تغيير حجم الخط لمنع أي تقطيع */
+.cat-btn {
+  background: transparent;
+  color: #64748B;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  /* انتقال انسيابي ناعم جداً لجميع الخصائص */
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+              background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+              transform 0.15s ease;
+}
+
+/* عند مرور الماوس على الزر غير النشط */
+.cat-btn:hover:not(.active) {
+  color: #0F172A;
+  background-color: #F1F5F9;
+}
+
+/* الزر النشط - انزلاق واستجابة فائقة السلاسة */
+.cat-btn.active {
+  background-color: #FFD000;
+  color: #0F172A;
+  font-weight: 600; /* تثبيت الوزن لمنع الاهتزاز */
+  box-shadow: 0 4px 12px rgba(255, 208, 0, 0.4);
+}
+
+/* استجابة ناعمة جداً عند الضغط بالماوس */
+.cat-btn:active {
+  transform: scale(0.96);
+}
+
+/* =========================================
+   Products Grid
+   ========================================= */
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 28px;
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.5s backwards;
+}

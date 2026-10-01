@@ -1,0 +1,128 @@
+.top-header {
+  background-color: var(--main-color);
+  color: #94A3B8;
+  font-size: 0.85rem;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.top-header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-header-right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.top-header-right a {
+  color: #94A3B8;
+  transition: color 0.2s;
+}
+
+.top-header-right a:hover {
+  color: #FFFFFF;
+}
+
+.lang-select {
+  background: transparent;
+  color: #94A3B8;
+  border: none;
+  font-size: 0.85rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.bottom-header {
+  background-color: var(--bg-card);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.bottom-header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h2 {
+  color: var(--main-color);
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.logo h2 span {
+  color: var(--accent-canary);
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  color: var(--text-body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--main-color);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  color: var(--main-color);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.cart-btn-header {
+  background-color: var(--accent-canary);
+  color: var(--main-color);
+  border: none;
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background-color 0.2s;
+}
+
+.cart-btn-header:hover {
+  background-color: var(--accent-canary-hover);
+}
+
+.cart-count {
+  background-color: var(--main-color);
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
